@@ -1,0 +1,80 @@
+.ContGral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo {
+  color: rgba(6, 253, 35, 0.926);
+}
+#city {
+  text-align: center;
+}
+.titulorespuesta {
+  text-align: center;
+  color: rgb(17, 241, 43);
+  margin-bottom: 10px;
+}
+#weather-info {
+  color: yellow;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(123, 123, 123, 0.61);
+  border-radius: 5px;
+}
+span {
+  color: rgb(19, 186, 253);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    background-color: rgba(21, 21, 21, 0.422);
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  input[type="text"]:read-only {
+    background-color: #f5f5f5;
+    color: #777;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #0070f3;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0055b3;
+  }
+  
