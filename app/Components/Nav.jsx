@@ -12,7 +12,7 @@ export default function Nav () {
       label: 'Ver Clima'
     },
     repositorio: {
-      route: '#',
+      route: 'https://github.com/marcioeze/marcioezeApp.git',
       label: 'Repositorio GitHub'
     }
   }

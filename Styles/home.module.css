@@ -1,0 +1,58 @@
+.contGral {
+    background-color: rgba(18, 82, 221, 0.914);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 550;
+    padding: 10px;
+    margin: 90px;
+    border-radius: 7px;
+}
+.imgrotar {
+    animation:  rotar .5s ease-in both;
+}
+.img {
+    transform: rotate(90deg);
+    animation:  rotar2 .4s ease-in both;
+}
+.contGral img:hover {
+    filter: invert(1);
+}
+
+.mydesc {
+    overflow: hidden;
+    opacity: 0;
+    transition: all .3s;
+    height: 0;
+}
+.descmostrada {
+    display: block;
+    opacity: 1;
+    overflow: visible;
+    transition: all .5s;
+    height: 100%;
+}
+
+
+@keyframes rotar {
+    0% {
+        transform: rotate(90deg);
+    }
+    
+    100% {
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes rotar2 {
+    0% {
+        transform: rotate(270deg);
+    }
+    
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
