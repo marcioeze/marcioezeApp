@@ -11,6 +11,10 @@ export default function Nav () {
       route: '/Clima',
       label: 'Ver Clima'
     },
+    taskManager: {
+      route: '/TaskManager',
+      label: 'Task Manager'
+    },
     repositorio: {
       route: 'https://github.com/marcioeze/marcioezeApp.git',
       label: 'Repositorio GitHub'
@@ -23,6 +27,7 @@ export default function Nav () {
         <ul className={styles.Menu}>
           <li><Link href={routes.imagenes.route}>{routes.imagenes.label}</Link></li>
           <li><Link href={routes.clima.route}>{routes.clima.label}</Link></li>
+          <li><Link href={routes.taskManager.route}>{routes.taskManager.label}</Link></li>
           <li><Link href={routes.repositorio.route}>{routes.repositorio.label}</Link></li>
           <li><Link href='/'>Home</Link></li>
         </ul>

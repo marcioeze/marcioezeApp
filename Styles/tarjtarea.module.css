@@ -1,0 +1,59 @@
+.tarjTarea {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aliceblue;
+    width: 200px;
+    height: fit-content;
+    border-radius: 5px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    margin: 10px;
+    border: 1.2px solid;
+    border-radius: 5px;
+}
+
+.tiempoInicio {
+    margin-top: 5px;
+    border-top: 1px solid #606060;
+}
+
+.tiempoFinal {
+    margin-top: 5px;
+    border-top: 1px solid #606060;
+}
+
+.tiempoRestante {
+    margin-top: 5px;
+    border-top: 1px solid #606060;
+}
+
+.funcionalidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.funcionalidades button {
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding: 2px;
+}
+.btnPosponer {
+    background-color: rgb(220, 236, 2);
+    margin-right: 5px;
+}
+.btnEditar {
+    background-color: rgb(2, 236, 14);
+    margin-right: 5px;
+}
+.btnEliminar {
+    background-color: rgb(236, 14, 2);
+}
